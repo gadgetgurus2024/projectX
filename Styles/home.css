@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    /*background-color: #da7878*/
+}
+
+header{
+    padding: 10Px;
+    background-color: rgb(207, 149, 74);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    padding-right: 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.intro h1{
+    margin: 0px;
+    color: rgb(30, 143, 2);
+    text-align: center;
+}
+
+.intro p{
+    margin: 0px;
+    color: rgb(30, 143, 2);
+    text-align: center;
+}
+
+.graduands{
+    display: flex;
+    justify-content: space-around;
+           
+}
+.science,.commercial,.art,.all-students{
+    width: 25%;
+    height: 200px;
+    border: 1px red solid;
+    margin: 25px;
+    text-align: center;    
+}
+
+.graduands p{
+   
+    color: rgb(55, 15, 225);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 75%;
+}
+.science{
+ background-image: url(../images/Science.jpg); 
+}
+.commercial{
+    background-image: url(../images/Commercial.jpg)
+}
+.art{
+    background-image: url(../images/Art.jpg);
+}
+.all-students{
+    background-image: url(../images/Students.jpeg);
+}
+.science,.commercial,.art,.all-students{
+    background-size:cover;
+}
+
