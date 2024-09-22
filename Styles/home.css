@@ -53,16 +53,16 @@ main{
     margin-top: 75%;
 }
 .science{
- background-image: url(../images/Science.jpg); 
+ background-image: url(../Images/Science.jpg); 
 }
 .commercial{
-    background-image: url(../images/Commercial.jpg)
+    background-image: url(../Images/Commercial.jpg)
 }
 .art{
-    background-image: url(../images/Art.jpg);
+    background-image: url(../Images/Art.jpg);
 }
 .all-students{
-    background-image: url(../images/Students.jpeg);
+    background-image: url(../Images/Students.jpeg);
 }
 .science,.commercial,.art,.all-students{
     background-size:cover;
