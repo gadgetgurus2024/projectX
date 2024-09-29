@@ -4,10 +4,12 @@ body{
 }
 
 header{
+    width: 100%;
     padding: 10Px;
     background-color: rgb(207, 149, 74);
     display: flex;
     justify-content: space-between;
+    position: fixed; 
 }
 
 .menu a{
@@ -17,7 +19,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
 }
 
 .intro h1{
@@ -30,6 +31,13 @@ main{
     margin: 0px;
     color: rgb(30, 143, 2);
     text-align: center;
+}
+.photo {
+width: 50vw;
+height:100vh;
+background-image: url(/Images/School.jpg);
+background-size: cover;
+background-position: right;
 }
 
 .graduands{
